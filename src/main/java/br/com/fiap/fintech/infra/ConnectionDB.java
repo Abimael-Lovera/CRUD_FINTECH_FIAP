@@ -7,8 +7,8 @@ import java.sql.SQLException;
 public class ConnectionDB {
 
     private static final String URL = "jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl";
-    private static final String USUARIO = "RM554116"; //padrão para aluno - RM12345
-    private static final String SENHA = "070498"; //padrão para aluno - DDMMYY
+    private static final String USUARIO = "RM12345"; //padrão para aluno - RM12345
+    private static final String SENHA = "DDMMYY"; //padrão para aluno - DDMMYY
 
     public ConnectionDB() {
     }
